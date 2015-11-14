@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.design.widget.CoordinatorLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+    android:layout_height="match_parent" android:fitsSystemWindows="true"
+    tools:context="assignment3.jcnelson.partb.SongActivity">
+
+    <android.support.design.widget.AppBarLayout android:layout_height="wrap_content"
+        android:layout_width="match_parent" android:theme="@style/AppTheme.AppBarOverlay">
+
+        <android.support.v7.widget.Toolbar android:id="@+id/toolbar"
+            android:layout_width="match_parent" android:layout_height="?attr/actionBarSize"
+            android:background="?attr/colorPrimary" app:popupTheme="@style/AppTheme.PopupOverlay" />
+
+    </android.support.design.widget.AppBarLayout>
+
+    <RelativeLayout
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent">
+
+        <Spinner
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentStart="true"
+            android:layout_marginTop="55dp"
+            android:id="@+id/songSelect"
+            android:prompt="@string/songPrompt"
+            android:spinnerMode="dropdown"
+            android:entries="@array/songOptions"
+            android:focusableInTouchMode="true"
+            android:layout_centerHorizontal="true">
+
+        </Spinner>
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/playSong"
+            android:id="@+id/playButton"
+            android:layout_below="@+id/songSelect"
+            android:layout_centerHorizontal="true" />
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/pauseSong"
+            android:id="@+id/pauseButton"
+            android:layout_below="@+id/playButton"
+            android:layout_alignStart="@+id/playButton" />
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/restartSong"
+            android:id="@+id/restartButton"
+            android:layout_below="@+id/pauseButton"
+            android:layout_alignStart="@+id/pauseButton" />
+
+    </RelativeLayout>
+
+</android.support.design.widget.CoordinatorLayout>

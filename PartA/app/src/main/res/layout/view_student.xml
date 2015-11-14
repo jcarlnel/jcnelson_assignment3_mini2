@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android" 
+   android:layout_width="match_parent" 
+   android:layout_height="wrap_content" android:layout_weight="1">
+   <TableLayout android:layout_width="match_parent" 
+      android:layout_height="wrap_content"
+      android:stretchColumns="1" android:layout_margin="5dp">
+      <TableRow android:id="@+id/nameTableRow"
+         android:layout_width="match_parent" 
+         android:layout_height="wrap_content">
+         <TextView android:id="@+id/nameLabelTextView" 
+            style="@style/StudentLabelTextView"
+            android:text="@string/StudentID"></TextView>
+         <TextView android:id="@+id/studentIDTextView"
+            style="@style/StudentTextView"></TextView>
+      </TableRow>
+
+      <TableRow android:id="@+id/Quiz1TableRow"
+         android:layout_width="match_parent"
+         android:layout_height="wrap_content">
+         <TextView android:id="@+id/Quiz1Text"
+            style="@style/StudentLabelTextView"
+            android:text="@string/Quiz1"></TextView>
+         <TextView android:id="@+id/Quiz1TextView"
+            style="@style/StudentTextView"></TextView>
+      </TableRow>
+
+      <TableRow android:id="@+id/Quiz2TableRow"
+          android:layout_width="match_parent"
+          android:layout_height="wrap_content">
+         <TextView android:id="@+id/Quiz2Text"
+             style="@style/StudentLabelTextView"
+             android:text="@string/Quiz1"></TextView>
+         <TextView android:id="@+id/Quiz2TextView"
+             style="@style/StudentTextView"></TextView>
+      </TableRow>
+
+      <TableRow android:id="@+id/Quiz3TableRow"
+          android:layout_width="match_parent"
+          android:layout_height="wrap_content">
+         <TextView android:id="@+id/Quiz3Text"
+             style="@style/StudentLabelTextView"
+             android:text="@string/Quiz1"></TextView>
+         <TextView android:id="@+id/Quiz3TextView"
+             style="@style/StudentTextView"></TextView>
+      </TableRow>
+
+      <TableRow android:id="@+id/Quiz4TableRow"
+          android:layout_width="match_parent"
+          android:layout_height="wrap_content">
+         <TextView android:id="@+id/Quiz4Text"
+             style="@style/StudentLabelTextView"
+             android:text="@string/Quiz1"></TextView>
+         <TextView android:id="@+id/Quiz4TextView"
+             style="@style/StudentTextView"></TextView>
+      </TableRow>
+
+      <TableRow android:id="@+id/Quiz5TableRow"
+          android:layout_width="match_parent"
+          android:layout_height="wrap_content">
+         <TextView android:id="@+id/Quiz5Text"
+             style="@style/StudentLabelTextView"
+             android:text="@string/Quiz1"></TextView>
+         <TextView android:id="@+id/Quiz5TextView"
+             style="@style/StudentTextView"></TextView>
+      </TableRow>
+
+
+   </TableLayout>
+</ScrollView>

@@ -1,0 +1,48 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="assignment3.jcnelson.partb.NavigationFragment">
+
+    <Button android:id="@+id/songsButton"
+        android:layout_height="wrap_content"
+        android:layout_width="125dp"
+        android:text="@string/songsButton"
+        android:layout_gravity="left|bottom"
+        android:layout_above="@+id/mailingListButton"
+        android:layout_alignParentStart="true"
+        android:textAlignment="center"
+        android:clickable="true"
+        android:paddingRight="5dp"/>
+
+    <Button
+        android:layout_width="125dp"
+        android:layout_height="wrap_content"
+        android:text="@string/videosButton"
+        android:id="@+id/videosButton"
+        android:layout_gravity="bottom"
+        android:clickable="true"
+        android:layout_above="@+id/mailingListButton"
+        android:layout_centerHorizontal="true"
+        android:paddingRight="5dp"
+        android:paddingLeft="5dp"/>
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/mailingListButton"
+        android:id="@+id/mailingListButton"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true"
+        android:clickable="true" />
+
+    <Button
+        android:layout_width="125dp"
+        android:layout_height="wrap_content"
+        android:text="@string/wallpapersButton"
+        android:id="@+id/wallpapersButton"
+        android:layout_alignTop="@+id/videosButton"
+        android:layout_alignParentEnd="true"
+        android:paddingLeft="5dp"/>
+
+</RelativeLayout>

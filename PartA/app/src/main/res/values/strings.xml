@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Grade Book</string>
+    <string name="button_add_student">Add Student</string>
+    <string name="button_save_student">Save Student</string>
+    <string name="menuitem_add_student">Add Student</string>
+    <string name="menuitem_edit_student">Edit Student</string>
+    <string name="menuitem_delete_student">Delete Student</string>
+    <string name="StudentID">Student ID</string>
+    <string name="Quiz1">Quiz1</string>
+    <string name="Quiz2">Quiz2</string>
+    <string name="Quiz3">Quiz3</string>
+    <string name="Quiz4">Quiz4</string>
+    <string name="Quiz5">Quiz5</string>
+    <string name="LowScore">Low Score</string>
+    <string name="AvgScore">Avg Score</string>
+    <string name="HighScore">High Score</string>
+    <string name="confirmTitle">Are You Sure?</string>
+   <string name="confirmMessage">
+      This will permanently delete the student</string>
+    <string name="errorButton">OK</string>
+    <string name="errorTitle">Student Name is Required</string>
+    <string name="errorMessage">You must enter a student name</string>
+    <string name="button_cancel">Cancel</string>
+    <string name="button_delete">Delete</string>
+    <string name="showStats">Show me Quiz Statistics</string>
+    <string name="title_activity_show_stats">ShowStatsActivity</string>
+</resources>
